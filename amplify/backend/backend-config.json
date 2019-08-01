@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"amplifyangularexampl4243d662": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}

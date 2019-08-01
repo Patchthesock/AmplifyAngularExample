@@ -1,0 +1,23 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplifyangularexampl-dev-20190801152202-authRole",
+            "UnauthRoleArn": "arn:aws:iam::737748091452:role/amplifyangularexampl-dev-20190801152202-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::737748091452:role/amplifyangularexampl-dev-20190801152202-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "amplifyangularexampl-dev-20190801152202-deployment",
+            "UnauthRoleName": "amplifyangularexampl-dev-20190801152202-unauthRole",
+            "StackName": "amplifyangularexampl-dev-20190801152202",
+            "StackId": "arn:aws:cloudformation:eu-west-1:737748091452:stack/amplifyangularexampl-dev-20190801152202/bb478b10-b467-11e9-b02d-06eb0c990f0a"
+        },
+        "categories": {
+            "auth": {
+                "amplifyangularexampl4243d662": {
+                    "facebookAppIdUserPool": "2061807607278791",
+                    "facebookAppSecretUserPool": "51577474ead96896cb3b3f12ff78300f",
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"2061807607278791\",\"client_secret\":\"51577474ead96896cb3b3f12ff78300f\"}]"
+                }
+            }
+        }
+    }
+}
