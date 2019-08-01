@@ -18,8 +18,7 @@ const awsmobile = {
         "redirectSignIn": "http://localhost:4200/",
         "redirectSignOut": "http://localhost:4200/",
         "responseType": "code"
-    },
-    "federationTarget": "COGNITO_USER_POOLS"
+    }
 };
 
 

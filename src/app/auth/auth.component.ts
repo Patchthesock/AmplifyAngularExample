@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Auth } from 'aws-amplify'
 
 @Component({
   selector: 'app-auth',
@@ -10,6 +11,6 @@ export class AuthComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    Auth.federatedSignIn();
   }
-
 }
