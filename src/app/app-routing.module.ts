@@ -3,11 +3,13 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home/home.component'
 import { AuthComponent } from './auth/auth.component'
+import { LogoutComponent } from './logout/logout.component'
 import { SecureComponent } from './secure/secure.component'
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
   { path: 'auth', component: AuthComponent, pathMatch: 'full' },
+  { path: 'logout', component: LogoutComponent, pathMatch: 'full' },
   { path: 'secure', component: SecureComponent, pathMatch: 'full' },
 ];
 

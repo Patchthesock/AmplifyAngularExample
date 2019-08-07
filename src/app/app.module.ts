@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { AuthComponent } from './auth/auth.component';
 import { HomeComponent } from './home/home.component';
 import { SecureComponent } from './secure/secure.component';
+import { LogoutComponent } from './logout/logout.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AuthComponent,
     HomeComponent,
-    SecureComponent
+    SecureComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserModule,
